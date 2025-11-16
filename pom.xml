@@ -71,7 +71,7 @@
                     <archive>
                         <manifest>
                             <addClasspath>true</addClasspath>
-                            <mainClass>com.test.gnp.GnpApplication</mainClass>
+                            <mainClass>com.demotest.gnp.GnpApplication</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
