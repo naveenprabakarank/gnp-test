@@ -3,13 +3,14 @@ package com.demotest.gnp.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.servlet.ModelAndView;
 
 @RestController
 public class TestController {
 
 
     @GetMapping("/")
-    public String getResponse() {
-        return "Welcome to Calci Buddy!!!";
+    public ModelAndView getResponse() {
+        return new ModelAndView("index.html");
     }
 }
